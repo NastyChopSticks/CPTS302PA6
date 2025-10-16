@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|c:\\users\\kaden\\desktop\\cpts classes\\cpts302\\cpts302pa6\\leetcode44\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:31:35.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

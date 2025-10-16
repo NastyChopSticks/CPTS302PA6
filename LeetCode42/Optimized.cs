@@ -24,12 +24,15 @@ namespace PA6._2
 
                 int n = height.Length;
 
+                //pre computer the left and right max heights. This will be used for the dynamic programming.
                 int[] maxLeft = ComputeMaxLeft(height);
                 int[] maxRight = ComputeMaxRight(height);
 
                 int total = 0;
                 for (int i = 0; i < n; i++)
                 {
+                    //now that we have precomputed all the heights, we take the min of the left and right of each index and subtract it by the current height of the array. We max that with 0 to amke sure we dont get negative values.
+                    //This properly computes the height of each index in the height array.
                     int waterHere = Math.Max(0, Math.Min(maxLeft[i], maxRight[i]) - height[i]);
                     total += waterHere;
                     Console.WriteLine($"Index {i}: height={height[i]}, maxLeft={maxLeft[i]}, maxRight={maxRight[i]}, water added={waterHere}, running total={total}");

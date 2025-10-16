@@ -12,77 +12,65 @@ namespace PA6._2
         public int NaiveSolution(int[] height) 
         {
             //height = new int[] { 0, 2, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
+            int totalWater = 0;
+            Console.WriteLine("Array: [" + string.Join(", ", height) + "]\n");
+
             if (height.Length < 3)
             {
                 Console.WriteLine("Array too short to trap any water.");
-                return 0;
             }
-
-            int total = 0;
-            int left = 0;
-
-            while (left < height.Length - 1)
+            else
             {
-                left = FindNextLeftWall(height, left);
-                if (left >= height.Length - 1) break;
+                int left = 0;
 
-                int right = FindRightWall(height, left, out bool noTallerRight);
+                while (left < height.Length - 1)
+                {
+                    // Skip zeros for left wall
+                    while (left < height.Length - 1 && height[left] == 0) left++;
 
-                if (noTallerRight)
-                    Console.WriteLine($"Bucket found (no taller right): left index={left}, right index={right}");
-                else
-                    Console.WriteLine($"Bucket found: left index={left}, right index={right}");
+                    // If left reaches the end, stop
+                    if (left >= height.Length - 1)
+                        break;
 
-                total += ComputeBucketWater(height, left, right);
+                    int right = left + 1;
+                    int maxRight = right;
 
-                left = right; // move to next bucket
+                    // Find a suitable right wall
+                    while (right < height.Length && height[right] < height[left])
+                    {
+                        if (height[right] >= height[maxRight])
+                            maxRight = right; // track tallest if no >= left
+                        right++;
+                    }
+
+                    // If right goes out of bounds, use maxRight
+                    if (right >= height.Length)
+                    {
+                        right = maxRight;
+                        if (left == right) // no bucket possible
+                            break;
+                        Console.WriteLine($"Bucket found (no taller right): left index = {left} (value={height[left]}), right index = {right} (value={height[right]})");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Bucket found: left index = {left} (value={height[left]}), right index = {right} (value={height[right]})");
+                    }
+
+                    // Compute water for this bucket
+                    for (int middle = left + 1; middle < right; middle++)
+                    {
+                        int minWall = Math.Min(height[left], height[right]);
+                        int waterHere = Math.Max(0, minWall - height[middle]);
+                        totalWater += waterHere;
+                        Console.WriteLine($"  Middle index {middle} (value={height[middle]}), min(left,right)={minWall}, water added={waterHere}, running total={totalWater}");
+                    }
+
+                    left = right; // move left pointer to next bucket
+                }
+
+                Console.WriteLine($"\nTotal trapped water: {totalWater}");
             }
-
-            return total;
-        }
-
-        int FindNextLeftWall(int[] height, int start)
-        {
-            while (start < height.Length - 1 && height[start] == 0)
-                start++;
-            return start;
-        }
-
-        // Find right wall for a given left wall
-        int FindRightWall(int[] height, int left, out bool noTallerRight)
-        {
-            int right = left + 1;
-            int maxRight = right;
-
-            while (right < height.Length && height[right] < height[left])
-            {
-                if (height[right] >= height[maxRight])
-                    maxRight = right;
-                right++;
-            }
-
-            if (right >= height.Length)
-            {
-                noTallerRight = true;
-                return maxRight;
-            }
-
-            noTallerRight = false;
-            return right;
-        }
-
-        // Compute trapped water for a bucket
-        int ComputeBucketWater(int[] height, int left, int right)
-        {
-            int water = 0;
-            for (int middle = left + 1; middle < right; middle++)
-            {
-                int minWall = Math.Min(height[left], height[right]);
-                int waterHere = Math.Max(0, minWall - height[middle]);
-                water += waterHere;
-                Console.WriteLine($"  Middle index={middle}, water added={waterHere}, running bucket total={water}");
-            }
-            return water;
+            return totalWater;
         }
     }
 }
