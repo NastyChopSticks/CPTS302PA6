@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode42\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAFAC67-8896-488C-8DAF-4F5BD24310FB}|PA6.2.csproj|c:\\users\\kaden\\desktop\\cpts classes\\cpts302\\cpts302pa6\\leetcode42\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAFAC67-8896-488C-8DAF-4F5BD24310FB}|PA6.2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AAFAC67-8896-488C-8DAF-4F5BD24310FB}|PA6.2.csproj|c:\\users\\kaden\\desktop\\cpts classes\\cpts302\\cpts302pa6\\leetcode42\\naive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AAFAC67-8896-488C-8DAF-4F5BD24310FB}|PA6.2.csproj|solutionrelative:naive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Naive.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode42\\Naive.cs",
+              "RelativeDocumentMoniker": "Naive.cs",
+              "ToolTip": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode42\\Naive.cs",
+              "RelativeToolTip": "Naive.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T22:14:39.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode42\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode42\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T21:29:51.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
