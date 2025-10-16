@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PA6._2
 {
-    internal class Naive
+    internal class Modular_Naive
     {
-        public int NaiveSolution(int[] height) 
+        public int Modular_NaiveSolution(int[] height)
         {
-            //height = new int[] { 0, 2, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 };
             if (height.Length < 3)
             {
                 Console.WriteLine("Array too short to trap any water.");
