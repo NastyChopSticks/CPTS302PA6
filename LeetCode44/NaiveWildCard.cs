@@ -17,7 +17,7 @@ namespace LeetCode44
             // Base case: if both strings are done
             if (si == s.Length && pi == p.Length) return true;
 
-            // Pattern finished but string not → no match
+            // Pattern finished but string not = no match
             if (pi == p.Length) return false;
 
             // String finished but pattern has remaining

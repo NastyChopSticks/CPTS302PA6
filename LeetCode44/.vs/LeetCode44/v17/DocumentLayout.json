@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|c:\\users\\kaden\\desktop\\cpts classes\\cpts302\\cpts302pa6\\leetcode44\\optimizedsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|solutionrelative:optimizedsolution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|c:\\users\\kaden\\desktop\\cpts classes\\cpts302\\cpts302pa6\\leetcode44\\naivemodular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|solutionrelative:naivemodular.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|c:\\users\\kaden\\desktop\\cpts classes\\cpts302\\cpts302pa6\\leetcode44\\naivewildcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|solutionrelative:naivewildcard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|c:\\users\\kaden\\desktop\\cpts classes\\cpts302\\cpts302pa6\\leetcode44\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E56B61BD-508C-43D3-B11D-CA78A224BE55}|LeetCode44.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OptimizedSolution.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\OptimizedSolution.cs",
+              "RelativeDocumentMoniker": "OptimizedSolution.cs",
+              "ToolTip": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\OptimizedSolution.cs",
+              "RelativeToolTip": "OptimizedSolution.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:49:31.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NaiveModular.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\NaiveModular.cs",
+              "RelativeDocumentMoniker": "NaiveModular.cs",
+              "ToolTip": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\NaiveModular.cs",
+              "RelativeToolTip": "NaiveModular.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:48:44.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NaiveWildCard.cs",
+              "DocumentMoniker": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\NaiveWildCard.cs",
+              "RelativeDocumentMoniker": "NaiveWildCard.cs",
+              "ToolTip": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\NaiveWildCard.cs",
+              "RelativeToolTip": "NaiveWildCard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T23:27:08.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\kaden\\Desktop\\CPTS CLASSES\\CPTS302\\CPTS302PA6\\LeetCode44\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T22:31:35.862Z",
               "EditorCaption": ""

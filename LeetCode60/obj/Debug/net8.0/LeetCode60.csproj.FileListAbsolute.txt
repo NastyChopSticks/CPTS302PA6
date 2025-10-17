@@ -1,0 +1,15 @@
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\bin\Debug\net8.0\LeetCode60.exe
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\bin\Debug\net8.0\LeetCode60.deps.json
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\bin\Debug\net8.0\LeetCode60.runtimeconfig.json
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\bin\Debug\net8.0\LeetCode60.dll
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\bin\Debug\net8.0\LeetCode60.pdb
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.AssemblyInfoInputs.cache
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.AssemblyInfo.cs
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.csproj.CoreCompileInputs.cache
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.sourcelink.json
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.dll
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\refint\LeetCode60.dll
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.pdb
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\LeetCode60.genruntimeconfig.cache
+C:\Users\kaden\Desktop\CPTS CLASSES\CPTS302\CPTS302PA6\LeetCode60\obj\Debug\net8.0\ref\LeetCode60.dll
