@@ -8,6 +8,10 @@ namespace LeetCode60
 {
     internal class OptimizedSolution
     {
+        //This solution is math heavy. It uses a math trick to directly compute permutations.
+        //So basically we compute the factorial for the sequence so for n = 4 -> 1,1,2,6,24.
+        //Then use a clever math trick to take k/fact where fact = factorials[i-1]. Append that to the string and remove the number we just added from the numbers string. then take K %= fact.
+        //This math trick basically jumps to the kth permutation directly without having to compute all of them and runs in O(n^2)
         public string GetKthPermutation(int n, int k)
         {
             List<int> numbers = CreateNumberList(n);
